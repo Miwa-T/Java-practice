@@ -6,7 +6,7 @@ public class Ready04 {
 	}
 	
 	public static int printNum(int number) {
-		if (number < 50) {
+		if (number < 100) {
 			number *= 2;
 			System.out.println("A=" + number);
 			printNum(number);
