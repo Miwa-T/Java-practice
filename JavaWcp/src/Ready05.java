@@ -4,7 +4,7 @@ public class Ready05 {
 	public int age;
 	
 	public Ready05() {
-		name = "山田";
+		name = "田中";
 		age = 20;
 	}
 	
