@@ -9,7 +9,9 @@ public class HelloWolrd4 {
 		 */
 		int num = (int)(100 * Math.random()) +1;
 		System.out.println("現在の値:" + num);
-		if(num <= 40) {
+//		boolean型のcondという変数に条件式を代入して、if(cond(=条件式))という風に置き換えている
+		boolean cond = (num <= 40);
+		if(cond) {
 			System.out.println("数値は40以下です");
 		}
 		else {
@@ -28,11 +30,14 @@ public class HelloWolrd4 {
 		
 		int num2 = (int)(100 * Math.random()) + 1;
 		System.out.println("現在の数値は、、、" + num2);
-		if (num2 % 2 == 0) {
+		int rem = num2 % 2;
+		if (rem == 0) {
 			System.out.println("偶数です");
 		}else {
 			System.out.println("奇数です");
 		}
+//		※等しい時は==。=としないことを気を付ける
+//		また、remは上のboolean型ではなく、num2を2で割ったものが1か0かを判断しているので、整数型で宣言する必要がある。
 
 	}
 
