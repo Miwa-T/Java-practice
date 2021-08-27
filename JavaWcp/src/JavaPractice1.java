@@ -16,6 +16,14 @@ public class JavaPractice1 {
 			break;
 		
 		}
+		
+		int num = (int)(6 * Math.random()) + 1;
+		while(num != 3) {
+			System.out.println("サイコロの目は" + num + "で【3】ではないのでもう一度振ります");
+			num = (int)(6 * Math.random()) + 1;
+		}
+		System.out.println("サイコロの目は" + num + "でした");
+		
 				
 
 	}
