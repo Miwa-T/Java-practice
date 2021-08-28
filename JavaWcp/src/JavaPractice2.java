@@ -2,8 +2,14 @@
 public class JavaPractice2 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-
+		int[] nums = { 10, 20, 30};
+		for(int num: nums) {
+			System.out.println(num);
+		}
+		
 	}
 
 }
+
+//※拡張for文: 配列の全ての値を単にループさせるには便利。
+//for(データ型 配列の各要素を格納する変数: 配列変数)
