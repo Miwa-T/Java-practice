@@ -17,7 +17,7 @@ public class JavaPractice2 {
 		for(int element : list) {
 			sum += element;
 		}
-		System.out.println("配列内の合計:" + sum);
+		System.out.print("配列内の合計:" + sum);
 	}
 
 }
