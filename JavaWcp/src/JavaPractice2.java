@@ -14,8 +14,8 @@ public class JavaPractice2 {
 	
 	public static void showSumArray(int[] list) {
 		int sum = 0;
-		for(int a : list) {
-			sum += a;
+		for(int element : list) {
+			sum += element;
 		}
 		System.out.println("配列内の合計:" + sum);
 	}
