@@ -13,11 +13,11 @@ public class JavaPractice2 {
     }
 	
 	public static void showSumArray(int[] list) {
-		int sum = 0;
+		int a = 0;
 		for(int element : list) {
-			sum += element;
+			a += element;
 		}
-		System.out.print("配列内の合計:" + sum);
+		System.out.print("配列内の合計:" + a);
 	}
 
 }
