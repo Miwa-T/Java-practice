@@ -6,18 +6,25 @@ public class JavaPractice2 {
         int[] list2 = { 6, 7, 8, 9, 10};
         int[] list3 = { 11, 12, 13, 14, 15};
         
-        showSumArray(list1);
-        showSumArray(list2);
-        showSumArray(list3);
+        int sum1 = getSumArray(list1);
+        int sum2 = getSumArray(list2);
+        int sum3 = getSumArray(list3);
         
-    }
+        System.out.println("配列1内の合計:" + sum1);
+        System.out.println("配列2内の合計:" + sum2);
+        System.out.println("配列3内の合計:" + sum3);
+        
+        int total = sum1 + sum2 + sum3;
+        System.out.println("全配列内の総合計:" + total);
+	}
 	
-	public static void showSumArray(int[] list) {
-		int a = 0;
-		for(int element : list) {
-			a += element;
+	public static int getSumArray(int[] array) {
+		int sum = 0;
+		for(int element : array) {
+			sum += element;
 		}
-		System.out.print("配列内の合計:" + a);
+		return sum;
+		
 	}
 
 }
