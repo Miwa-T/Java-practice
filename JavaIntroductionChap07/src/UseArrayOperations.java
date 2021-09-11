@@ -7,7 +7,9 @@ public class UseArrayOperations {
 		int[] list3 = {5, 87, 8, 11, 41};
 		
 		ArrayOperations arrayOpe = new ArrayOperations();
+//		※クラス名 変数名
 //		※クラスのインスタンスを生成: new クラス名
+	
 		
 		
 		int sum1 = arrayOpe.getSumArray(list1);
