@@ -16,6 +16,7 @@ public class UseArrayOperations {
 		int sum2 = arrayOpe.getSumArray(list2);
 		int sum3 = arrayOpe.getSumArray(list3);
 //		※クラス型変数名の呼び出し: 変数名.メソッド名(引数)
+//		※()内に引数として渡すデータを記述することが出来る。不要な場合は特に書く必要がないが、その場合でも()は省略出来ない。
 		
 		
 		System.out.println("配列1内の合計:" + sum1);
