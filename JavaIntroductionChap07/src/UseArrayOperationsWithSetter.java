@@ -13,3 +13,6 @@ public class UseArrayOperationsWithSetter {
 	}
 
 }
+//※getSumArray()で渡していた配列データを、先にセッターを使用して渡しておく。
+//※それがこの箇所　arrayOpe.setArray(list);　その代わり　getSumArray();　での引数は不要となる。
+//※この方法であれば合計値→平均値、平均値→合計値でも計算することが可能となる
