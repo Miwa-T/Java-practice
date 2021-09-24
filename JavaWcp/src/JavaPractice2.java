@@ -2,15 +2,10 @@
 public class JavaPractice2 {
 
 	public static void main(String[] args) {
-		int number = 7;
-        if (number < 5) {
-            System.out.println(number + " は5未満です");
-        }
-        if (number < 10) {
-            System.out.println(number + " は10未満です");
-        }
-        if (number < 15) {
-            System.out.println(number + " は15未満です");
+		int number = 1;
+        while (number < 50) {
+            number *= 2;
+            System.out.println("While01 = " + number);
         }
 	}
 
